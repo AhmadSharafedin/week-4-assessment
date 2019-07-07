@@ -41,11 +41,23 @@
 
     /* Your code starts here */
     /* CODE AREA */
-    .container {}
+    .container {
+      display: flex;
+      flex-shrink: inherit;
+      justify-content: stretch;
+      /* flex-flow: row wrap;  */
+    }
 
-    .content {}
+    .content {
+      justify-content: stretch;
+      
 
-    .leftbar {}
+    }
+
+    .leftbar {
+      order:-1;
+
+    }
 
     /* END CODE AREA */
   </style>
